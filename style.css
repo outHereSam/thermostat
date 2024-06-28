@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+button,
+input {
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  background-color: #111111;
+  color: #eaeaeb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  /* justify-content: baseline; */
+  align-items: start;
+  gap: 15px;
+}
+
+ion-icon {
+  font-size: 32px;
+  color: #eaeaeb;
+}
+
+.center-grid {
+  padding: 50px;
+  text-align: center;
+  background-color: #2a2a2a;
+  border: solid 2px #464646;
+  border-radius: 8px;
+}
+
+.little-heading {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #b0b0b0;
+}
+
+h1.current-temp {
+  font-size: 72px;
+}
+
+.options {
+  margin: 30px 0 0 0;
+}
+
+.buttons {
+  margin: 20px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.buttons button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* Stats Grid */
+.stats {
+  border: solid 2px #464646;
+  border-radius: 8px;
+  padding: 30px;
+  background-color: #2a2a2a;
+}
+
+.days {
+  display: flex;
+  gap: 5px;
+}
+
+.days button {
+  border: none;
+  color: #b0b0b0;
+  background-color: #464646;
+  padding: 8px;
+  flex: 1;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in;
+}
+
+.days button:hover {
+  background-color: #656565;
+}
+
+button.selected {
+  background-color: #2a2a2a;
+}
+
+.days-stats {
+  margin: 20px 0 0 0;
+}
+
+.stat {
+  /* border: solid 1px pink; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px #5e5e5e;
+  padding: 15px 0;
+}
+
+.stat:last-child {
+  border-bottom: none;
+}
+
+.temp,
+.humidity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}

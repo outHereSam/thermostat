@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Manrope Font Embeded -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- JS -->
+    <script src="main.js" defer></script>
+    <title>Smart Home | Thermostat</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="stats">
+        <div class="days">
+          <button>
+            <p class="day">Mon</p>
+            <p class="avg">22°</p>
+          </button>
+          <button class="selected">
+            <p class="day">Tues</p>
+            <p class="avg">22°</p>
+          </button>
+          <button>
+            <p class="day">Wed</p>
+            <p class="avg">22°</p>
+          </button>
+          <button>
+            <p class="day">Thur</p>
+            <p class="avg">22°</p>
+          </button>
+        </div>
+
+        <div class="days-stats">
+          <div class="stat">
+            <p class="time">7 pm</p>
+            <p class="temp">
+              <ion-icon name="sunny-outline"></ion-icon>
+              25°
+            </p>
+            <p class="humidity">
+              <ion-icon name="water-outline"></ion-icon>
+              76%
+            </p>
+          </div>
+          <div class="stat">
+            <p class="time">7 pm</p>
+            <p class="temp">
+              <ion-icon name="sunny-outline"></ion-icon>
+              25°
+            </p>
+            <p class="humidity">
+              <ion-icon name="water-outline"></ion-icon>
+              76%
+            </p>
+          </div>
+          <div class="stat">
+            <p class="time">7 pm</p>
+            <p class="temp">
+              <ion-icon name="sunny-outline"></ion-icon>
+              25°
+            </p>
+            <p class="humidity">
+              <ion-icon name="water-outline"></ion-icon>
+              76%
+            </p>
+          </div>
+          <div class="stat">
+            <p class="time">7 pm</p>
+            <p class="temp">
+              <ion-icon name="sunny-outline"></ion-icon>
+              25°
+            </p>
+            <p class="humidity">
+              <ion-icon name="water-outline"></ion-icon>
+              76%
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Stats grid ends here -->
+
+      <div class="center-grid">
+        <div class="text-info">
+          <h3 class="little-heading">current temp</h3>
+          <h1 class="current-temp">24°C</h1>
+        </div>
+        <div class="options">
+          <h3 class="little-heading">Set Temperature</h3>
+          <div class="buttons">
+            <button class="decrease">
+              <ion-icon name="remove-outline"></ion-icon>
+            </button>
+            <button class="increase">
+              <ion-icon name="add-outline"></ion-icon>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Center grid ends here -->
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
